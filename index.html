@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio to Video Converter</title>
+    <link rel="manifest" href="/manifest.json">
+</head>
+
+<body>
+    <h1>Audio to Video Converter</h1>
+    <input type="file" id="audioInput" accept="audio/*">
+    <button id="processButton">Convert Audio to Video</button>
+    <video id="outputVideo" controls></video>
+
+    <script src="https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.10.0/dist/ffmpeg.min.js"></script>
+    <script src="/app.js"></script>
+</body>
+
+</html>
